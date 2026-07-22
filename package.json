@@ -1,0 +1,33 @@
+{
+  "name": "web-type-system",
+  "version": "1.0.0",
+  "description": "Claude Agent Skill: build an optically-tuned, baseline-locked web/product type system for a specific typeface — Figma tokens, CSS, and Tailwind config included.",
+  "bin": {
+    "web-type-system": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "SKILL.md",
+    "scripts",
+    "references"
+  ],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "agent-skill",
+    "typography",
+    "type-scale",
+    "design-tokens",
+    "figma"
+  ],
+  "author": "Sandro de Calonne",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sandrodc/web-type-system.git"
+  },
+  "homepage": "https://github.com/Sandrodc/web-type-system#readme",
+  "engines": {
+    "node": ">=16"
+  }
+}
