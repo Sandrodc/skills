@@ -1,0 +1,41 @@
+{
+  "name": "sandrodc-skills",
+  "owner": {
+    "name": "Sandro de Calonne"
+  },
+  "metadata": {
+    "description": "Sandro de Calonne's Claude Agent Skills, grouped into plugins.",
+    "version": "2.0.0"
+  },
+  "plugins": [
+    {
+      "name": "design",
+      "description": "Design-system skills: an optically tuned, baseline-locked web type system.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/design/web-type-system"
+      ]
+    },
+    {
+      "name": "build-in-public",
+      "description": "Find post-worthy moments in a project, make the visual, and write the caption for X.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/build-in-public/build-in-public-ideas",
+        "./skills/build-in-public/build-in-public-media",
+        "./skills/build-in-public/build-in-public-captions"
+      ]
+    },
+    {
+      "name": "product",
+      "description": "Grill a product idea one sharp question at a time, then get a verdict and validation plan.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/product/product-thinking"
+      ]
+    }
+  ]
+}
